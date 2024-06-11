@@ -5,3 +5,17 @@ pip install lapx
 
 #run
 python demo.py --cam_para demo/cam_para.txt --video demo/demo.mp4
+
+#change url git
+git remote set-url origin url
+
+#git init 
+git init
+git remote -v
+
+#git push
+git add .
+git commit -m "message"
+git push origin master (or git push or nothing)
+
+#result: ~7s per frame on cpu
