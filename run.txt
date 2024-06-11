@@ -1,0 +1,7 @@
+source: https://github.com/toanbh10032/MCT_UCMCTrack
+
+#install (extra)
+pip install lapx
+
+#run
+python demo.py --cam_para demo/cam_para.txt --video demo/demo.mp4

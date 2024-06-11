@@ -95,7 +95,9 @@ def main(args):
 
     # 打开一个cv的窗口，指定高度和宽度
     cv2.namedWindow("demo", cv2.WINDOW_NORMAL)
-    cv2.resizeWindow("demo", width, height)
+    # cv2.resizeWindow("demo", width, height)
+    cv2.resizeWindow("demo", 600, 320)
+    
 
     detector = Detector()
     detector.load(args.cam_para)
